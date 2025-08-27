@@ -1,7 +1,7 @@
 ﻿// CardGame.cpp : Defines the entry point for the application.
 //
 
-#include "Blackjack.h"
+//#include "Blackjack.h"
 #include <algorithm>
 #include <vector>
 #include <random>
@@ -347,4 +347,5 @@ using namespace std;
 	void flushHands(vector<Card>& d, vector<Card>& p) {
 		d.clear();
 		p.clear();
+
 	}
